@@ -39,7 +39,6 @@ It is better to start the network emulation once and run Wireshark captures. You
 1. Start wireshark and have its filter to capture only OSPF related packets.
 
 2. Go to another router say router n2, open vtysh and issue the commands:
-   `config terminal`
    `show ip ospf database`
    `show ip ospf route`
 
